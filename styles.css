@@ -1,0 +1,80 @@
+* {
+  border: 1.5px solid black;
+}
+
+/* Tästä alkaa Header css */
+.nav {
+  padding-left: 50px;
+
+  display: flex;
+}
+
+.nav-element {
+  flex: 1;
+}
+
+.nav-logo {
+  flex: 3 1 auto;
+  font-weight: bold;
+}
+
+/* Tästä loppuu  Header css ja alkaa header ala osan css */
+
+.flex-container-info {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.flex-item-info {
+  justify-content: center;
+  width: 30vh;
+  padding-right: 50px;
+  padding: 50px;
+}
+
+.otsikko {
+  flex: 1;
+  margin: 0;
+}
+
+.plain-text {
+  flex: 1;
+  margin: 0;
+}
+.Sign-up {
+  margin: 0;
+  flex: 1;
+}
+
+.kuva {
+  padding-left: 0;
+  margin: 0;
+
+  width: 400px;
+  height: 200px;
+}
+
+.flex-item {
+  flex: 1 1 100;
+}
+
+.otsikkoM {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.leikkikuva {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+}
